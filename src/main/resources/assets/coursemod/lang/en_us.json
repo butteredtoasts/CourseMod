@@ -18,6 +18,14 @@
 
   "block.coursemod.magic_block": "Magic Block",
 
+  "tooltip.coursemod.chainsaw.tooltip.shift": "Hold SHIFT for more information",
+  "tooltip.coursemod.chainsaw.tooltip.1": "This is awesome and cuts down trees!",
+  "tooltip.coursemod.chainsaw.tooltip.2": "Vroooom",
+
+  "tooltip.coursemod.tomato.1": "Tomato, tomato...",
+
+  "tooltip.coursemod.magic_block.tooltip.1": "This block is MAGICAL!",
+
   "itemGroup.coursemod.black_opal_item_tab": "Black Opal Items",
   "itemGroup.coursemod.black_opal_blocks_tab": "Black Opal Blocks"
 }
