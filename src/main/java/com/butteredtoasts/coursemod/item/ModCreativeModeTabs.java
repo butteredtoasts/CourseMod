@@ -7,7 +7,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -35,6 +34,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLACK_OPAL_BLOCK);
                         output.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
+                        output.accept(ModBlocks.BLACK_OPAL_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_END_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
                     })
                     .build());
 
