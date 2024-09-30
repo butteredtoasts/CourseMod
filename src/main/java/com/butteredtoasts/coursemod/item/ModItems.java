@@ -2,6 +2,7 @@ package com.butteredtoasts.coursemod.item;
 
 import com.butteredtoasts.coursemod.CourseMod;
 import com.butteredtoasts.coursemod.item.custom.ChainsawItem;
+import com.butteredtoasts.coursemod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -19,6 +20,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> TOMATO =
             ITEMS.register("tomato", () -> new Item(new Item.Properties().food(ModFoodProperties.TOMATO)));
+
+    public static final DeferredItem<Item> FROSTFIRE_ICE =
+            ITEMS.register("frostfire_ice", () -> new FuelItem(new Item.Properties(),600));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
