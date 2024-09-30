@@ -61,10 +61,6 @@ public class CourseMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BLACK_OPAL);
-            event.accept(ModItems.RAW_BLACK_OPAL);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
