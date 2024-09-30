@@ -2,6 +2,9 @@
   "item.coursemod.black_opal": "Black Opal",
   "item.coursemod.raw_black_opal": "Raw Black Opal",
 
+  "block.coursemod.black_opal_block": "Black Opal Block",
+  "block.coursemod.raw_black_opal_block": "Raw Black Opal Block",
+
   "itemGroup.coursemod.black_opal_item_tab": "Black Opal Items",
   "itemGroup.coursemod.black_opal_blocks_tab": "Black Opal Blocks"
 }

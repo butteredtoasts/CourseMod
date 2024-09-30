@@ -1,5 +1,6 @@
 package com.butteredtoasts.coursemod;
 
+import com.butteredtoasts.coursemod.block.ModBlocks;
 import com.butteredtoasts.coursemod.item.ModCreativeModeTabs;
 import com.butteredtoasts.coursemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -38,6 +39,7 @@ public class CourseMod
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
