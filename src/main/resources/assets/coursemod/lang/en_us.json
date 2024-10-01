@@ -24,6 +24,10 @@
   "block.coursemod.black_opal_pressure_plate": "Black Opal Pressure Plate",
   "block.coursemod.black_opal_button": "Black Opal Button",
 
+  "block.coursemod.black_opal_fence": "Black Opal Fence",
+  "block.coursemod.black_opal_fence_gate": "Black Opal Fence Gate",
+  "block.coursemod.black_opal_wall": "Black Opal Wall",
+
   "tooltip.coursemod.chainsaw.tooltip.shift": "Hold SHIFT for more information",
   "tooltip.coursemod.chainsaw.tooltip.1": "This is awesome and cuts down trees!",
   "tooltip.coursemod.chainsaw.tooltip.2": "Vroooom",
