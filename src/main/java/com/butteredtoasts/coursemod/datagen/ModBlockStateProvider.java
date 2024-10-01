@@ -33,6 +33,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.BLACK_OPAL_SLAB);
         blockItem(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
         blockItem(ModBlocks.BLACK_OPAL_FENCE_GATE);
+
+        blockItem(ModBlocks.BLACK_OPAL_TRAPDOOR, "_bottom");
         
         pressurePlateBlock((PressurePlateBlock)ModBlocks.BLACK_OPAL_PRESSURE_PLATE.get(), blockTexture((ModBlocks.BLACK_OPAL_BLOCK.get())));
         buttonBlock((ButtonBlock) ModBlocks.BLACK_OPAL_BUTTON.get(), blockTexture((ModBlocks.BLACK_OPAL_BLOCK.get())));
@@ -40,6 +42,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         fenceBlock(((FenceBlock) ModBlocks.BLACK_OPAL_FENCE.get()), blockTexture((ModBlocks.BLACK_OPAL_BLOCK.get())));
         fenceGateBlock(((FenceGateBlock) ModBlocks.BLACK_OPAL_FENCE_GATE.get()), blockTexture((ModBlocks.BLACK_OPAL_BLOCK.get())));
         wallBlock(((WallBlock) ModBlocks.BLACK_OPAL_WALL.get()), blockTexture((ModBlocks.BLACK_OPAL_BLOCK.get())));
+
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.BLACK_OPAL_DOOR.get()), modLoc("block/black_opal_door_bottom"), modLoc("block/black_opal_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.BLACK_OPAL_TRAPDOOR.get()), modLoc("block/black_opal_trapdoor"), true, "cutout");
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

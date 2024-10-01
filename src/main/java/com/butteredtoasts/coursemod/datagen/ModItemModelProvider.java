@@ -28,6 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         fenceItem(ModBlocks.BLACK_OPAL_FENCE, ModBlocks.BLACK_OPAL_BLOCK);
         wallItem(ModBlocks.BLACK_OPAL_WALL,ModBlocks.BLACK_OPAL_BLOCK);
+
+        basicItem(ModBlocks.BLACK_OPAL_DOOR.asItem());
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
