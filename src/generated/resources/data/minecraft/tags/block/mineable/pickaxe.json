@@ -6,6 +6,8 @@
     "coursemod:black_opal_deepslate_ore",
     "coursemod:black_opal_end_ore",
     "coursemod:black_opal_nether_ore",
-    "coursemod:magic_block"
+    "coursemod:magic_block",
+    "coursemod:black_opal_stairs",
+    "coursemod:black_opal_slab"
   ]
 }

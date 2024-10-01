@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "coursemod:block/black_opal_block",
+    "side": "coursemod:block/black_opal_block",
+    "top": "coursemod:block/black_opal_block"
+  }
+}

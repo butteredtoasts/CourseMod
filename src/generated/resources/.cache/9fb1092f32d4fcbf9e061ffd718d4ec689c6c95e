@@ -1,4 +1,6 @@
-// 1.21.1	2024-09-30T20:37:00.2205196	Recipes
+// 1.21.1	2024-09-30T20:56:56.4919967	Recipes
+dcf0c511fd6a3ee2ee9695431ad366435a8f32b1 data/coursemod/advancement/recipes/building_blocks/black_opal_slab.json
+f96ace89c9e904de8515432c030a06a08222b572 data/coursemod/advancement/recipes/building_blocks/black_opal_stairs.json
 14cef6d7e4ecf389a33ee1e010ed2259390dfaf0 data/coursemod/advancement/recipes/misc/black_opal.json
 2bc9243037234b9a619b84ad81bf836407658437 data/coursemod/advancement/recipes/misc/black_opal_2.json
 e8175d559b67612c1d77b9f6e2ec821fe9275e8e data/coursemod/advancement/recipes/misc/black_opal_block.json
@@ -25,3 +27,5 @@ bca59385dcb8094307607c83e77a12ff3131dc5f data/coursemod/recipe/black_opal_from_s
 ab805aba67c0ba1c1337f8cdaee0d624462a81c8 data/coursemod/recipe/black_opal_from_smelting_black_opal_nether_ore.json
 fe459fccbe77bf12bdee24da6fd083186591f3e3 data/coursemod/recipe/black_opal_from_smelting_black_opal_ore.json
 33329ad2640c82868a8568e41968dd512b415c4a data/coursemod/recipe/black_opal_from_smelting_raw_black_opal.json
+ef573f2e78ad8236f3a4fea9969c3414b9699f0a data/coursemod/recipe/black_opal_slab.json
+3ee971dd365ad9bee43f5ffec00f49d044019cd7 data/coursemod/recipe/black_opal_stairs.json

@@ -18,6 +18,9 @@
 
   "block.coursemod.magic_block": "Magic Block",
 
+  "block.coursemod.black_opal_stairs": "Black Opal Stairs",
+  "block.coursemod.black_opal_slab": "Black Opal Slab",
+
   "tooltip.coursemod.chainsaw.tooltip.shift": "Hold SHIFT for more information",
   "tooltip.coursemod.chainsaw.tooltip.1": "This is awesome and cuts down trees!",
   "tooltip.coursemod.chainsaw.tooltip.2": "Vroooom",
