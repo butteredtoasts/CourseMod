@@ -20,7 +20,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        List<ItemLike> BLACK_OPAL_SMELTABLES = List.of(ModItems.BLACK_OPAL,
+        List<ItemLike> BLACK_OPAL_SMELTABLES = List.of(ModItems.RAW_BLACK_OPAL,
                 ModBlocks.BLACK_OPAL_ORE,
                 ModBlocks.BLACK_OPAL_DEEPSLATE_ORE,
                 ModBlocks.BLACK_OPAL_END_ORE,
