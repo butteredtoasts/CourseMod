@@ -1,0 +1,4 @@
+// 1.21.1	2024-09-30T20:33:13.6197363	Tags for minecraft:block mod id coursemod
+ca4213e71cf8c3afd9949d1685e96329028dbef6 data/minecraft/tags/block/mineable/pickaxe.json
+0ebf959542b2e9e1da5133dab97bf3e905019a4b data/minecraft/tags/block/needs_diamond_tool.json
+9b404808929d6b8f3120382510be143b31a0c22c data/minecraft/tags/block/needs_iron_tool.json
