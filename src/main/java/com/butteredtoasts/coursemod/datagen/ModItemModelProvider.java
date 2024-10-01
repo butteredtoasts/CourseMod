@@ -1,6 +1,7 @@
 package com.butteredtoasts.coursemod.datagen;
 
 import com.butteredtoasts.coursemod.CourseMod;
+import com.butteredtoasts.coursemod.block.ModBlocks;
 import com.butteredtoasts.coursemod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -22,6 +23,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CHAINSAW.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
         basicItem(ModItems.TOMATO.get());
+
+        buttonItem(ModBlocks.BLACK_OPAL_BUTTON, ModBlocks.BLACK_OPAL_BLOCK);
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

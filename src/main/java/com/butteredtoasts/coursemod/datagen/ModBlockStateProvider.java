@@ -3,6 +3,8 @@ package com.butteredtoasts.coursemod.datagen;
 import com.butteredtoasts.coursemod.CourseMod;
 import com.butteredtoasts.coursemod.block.ModBlocks;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.ButtonBlock;
+import net.minecraft.world.level.block.PressurePlateBlock;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
@@ -32,6 +34,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockItem(ModBlocks.BLACK_OPAL_STAIRS);
         blockItem(ModBlocks.BLACK_OPAL_SLAB);
+        blockItem(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
+        
+        pressurePlateBlock((PressurePlateBlock)ModBlocks.BLACK_OPAL_PRESSURE_PLATE.get(), blockTexture(( ModBlocks.BLACK_OPAL_BLOCK.get())));
+        buttonBlock((ButtonBlock) ModBlocks.BLACK_OPAL_BUTTON.get(), blockTexture(( ModBlocks.BLACK_OPAL_BLOCK.get())));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

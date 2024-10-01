@@ -1,9 +1,11 @@
-// 1.21.1	2024-09-30T20:56:56.491501	Loot Tables
+// 1.21.1	2024-09-30T21:12:20.8451622	Loot Tables
 487f6f1dd0dab454fd285e026233d6c136a712c2 data/coursemod/loot_table/blocks/black_opal_block.json
+d96067490e17d9f931b30df7984eb6054614e941 data/coursemod/loot_table/blocks/black_opal_button.json
 9e860f72018ce8c1af7b2b9e4e4bfa55307c8b87 data/coursemod/loot_table/blocks/black_opal_deepslate_ore.json
 9601d4eb4f0ef2fa170738c4ac4a4d75a08802f8 data/coursemod/loot_table/blocks/black_opal_end_ore.json
 9ed82a593a5db3ca33d1df648a900b2ec093b62e data/coursemod/loot_table/blocks/black_opal_nether_ore.json
 3688b3503ab3774e8624c9bc2c5c768c07b6724c data/coursemod/loot_table/blocks/black_opal_ore.json
+a242018d466cf8a2a15c789101d31c612be0c905 data/coursemod/loot_table/blocks/black_opal_pressure_plate.json
 9ac6b9306150e28693cab96a89af32b1d49e957e data/coursemod/loot_table/blocks/black_opal_slab.json
 f80d1e3af99f666b0803721362a05bb6323748a5 data/coursemod/loot_table/blocks/black_opal_stairs.json
 e98b2ad4fd9d015569a1e9b7b92c36b89eb3a710 data/coursemod/loot_table/blocks/magic_block.json

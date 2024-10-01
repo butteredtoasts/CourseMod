@@ -3,7 +3,6 @@ package com.butteredtoasts.coursemod;
 import com.butteredtoasts.coursemod.block.ModBlocks;
 import com.butteredtoasts.coursemod.item.ModCreativeModeTabs;
 import com.butteredtoasts.coursemod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

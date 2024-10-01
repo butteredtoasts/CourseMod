@@ -50,6 +50,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.BLACK_OPAL_STAIRS);
                         output.accept(ModBlocks.BLACK_OPAL_SLAB);
+
+                        output.accept(ModBlocks.BLACK_OPAL_BUTTON);
+                        output.accept(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
                     })
                     .build());
 
