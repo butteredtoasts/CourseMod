@@ -1,4 +1,5 @@
-// 1.21.1	2024-10-01T13:51:12.1428125	Tags for minecraft:block mod id coursemod
+// 1.21.1	2024-10-02T19:08:07.379107	Tags for minecraft:block mod id coursemod
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/coursemod/tags/block/mineable/paxel.json
 61f1de209e9a7bb7b0b5107d7950cd6b7508b12a data/minecraft/tags/block/fences.json
 fb7d22dcc4745a9fd4321d657c5df19a80d209b8 data/minecraft/tags/block/fence_gates.json
 a10b29662819b27500f5170dae63933a0281a8c1 data/minecraft/tags/block/mineable/pickaxe.json

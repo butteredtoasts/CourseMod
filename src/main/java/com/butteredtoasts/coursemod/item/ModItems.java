@@ -3,6 +3,7 @@ package com.butteredtoasts.coursemod.item;
 import com.butteredtoasts.coursemod.CourseMod;
 import com.butteredtoasts.coursemod.item.custom.ChainsawItem;
 import com.butteredtoasts.coursemod.item.custom.FuelItem;
+import com.butteredtoasts.coursemod.item.custom.PaxelItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -46,6 +47,10 @@ public class ModItems {
     public static final DeferredItem<Item> BLACK_OPAL_HOE = ITEMS.register("black_opal_hoe",
             () -> new HoeItem(ModToolTiers.BLACK_OPAL,
                     new Item.Properties().attributes(HoeItem.createAttributes(ModToolTiers.BLACK_OPAL, 0, -3.0f))));
+
+    public static final DeferredItem<Item> BLACK_OPAL_PAXEL = ITEMS.register("black_opal_paxel",
+            () -> new PaxelItem(ModToolTiers.BLACK_OPAL,
+                    new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACK_OPAL, 5, -2.8f))));
 
     public static final DeferredItem<Item> FROSTFIRE_ICE =
             ITEMS.register("frostfire_ice", () -> new FuelItem(new Item.Properties(),600));
