@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLACK_OPAL_HOE);
 
                         output.accept(ModItems.BLACK_OPAL_PAXEL);
+                        output.accept(ModItems.BLACK_OPAL_HAMMER);
                     })
                     .build());
 
