@@ -1,6 +1,7 @@
 package com.butteredtoasts.coursemod;
 
 import com.butteredtoasts.coursemod.block.ModBlocks;
+import com.butteredtoasts.coursemod.item.ModArmourMaterials;
 import com.butteredtoasts.coursemod.item.ModCreativeModeTabs;
 import com.butteredtoasts.coursemod.item.ModItems;
 import org.slf4j.Logger;
@@ -40,6 +41,8 @@ public class CourseMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+
+        ModArmourMaterials.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

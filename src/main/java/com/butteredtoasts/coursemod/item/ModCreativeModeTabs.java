@@ -38,8 +38,12 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.BLACK_OPAL_PAXEL);
                         output.accept(ModItems.BLACK_OPAL_HAMMER);
-                    })
-                    .build());
+
+                        output.accept(ModItems.BLACK_OPAL_HELMET);
+                        output.accept(ModItems.BLACK_OPAL_CHESTPLATE);
+                        output.accept(ModItems.BLACK_OPAL_LEGGINGS);
+                        output.accept(ModItems.BLACK_OPAL_BOOTS);
+                    }).build());
 
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
             CREATIVE_MODE_TABS.register("black_opal_blocks_tab", () -> CreativeModeTab.builder()
@@ -69,8 +73,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.BLACK_OPAL_DOOR);
                         output.accept(ModBlocks.BLACK_OPAL_TRAPDOOR);
-                    })
-                    .build());
+                    }).build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

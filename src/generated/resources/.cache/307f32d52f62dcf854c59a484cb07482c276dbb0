@@ -1,11 +1,15 @@
-// 1.21.1	2024-10-03T20:39:03.016501	Item Models: coursemod
+// 1.21.1	2024-10-05T16:37:27.9825265	Item Models: coursemod
 ca060342f5321bf0c9e568b4e0f9d06190ce6d0a assets/coursemod/models/item/black_opal.json
 53c0bb42b55779a2cfd4dcab8b8154fd940167c4 assets/coursemod/models/item/black_opal_axe.json
+a09a32c22d7e96e78a11bc67eaca5969f26b09e0 assets/coursemod/models/item/black_opal_boots.json
 3fd635a1aeda0207ae2520897a67a94bc424ebc8 assets/coursemod/models/item/black_opal_button.json
+4794585f184c9dab4f71fde2d1c39fc5b3518ea5 assets/coursemod/models/item/black_opal_chestplate.json
 2d51eb8ef89d7442ad838f49a7f95b48c841c626 assets/coursemod/models/item/black_opal_door.json
 e9f1a689a15eb9aee89646277675c51cfa3cef9d assets/coursemod/models/item/black_opal_fence.json
 919b23f82444378b41817718e24e84ca7c4e8fe8 assets/coursemod/models/item/black_opal_hammer.json
+5cf62042438586e3ba4c163dd9e1064af706d0da assets/coursemod/models/item/black_opal_helmet.json
 29c377cc3c00ed02227309f8893195aceec04418 assets/coursemod/models/item/black_opal_hoe.json
+b6630d9e1ffea3c188932047d08ed14c39eab2ee assets/coursemod/models/item/black_opal_leggings.json
 e629e78224929da29617f707987d5b39144f26cd assets/coursemod/models/item/black_opal_paxel.json
 2f849b51eb90491d77a5269ae492f1e1efa3d671 assets/coursemod/models/item/black_opal_pickaxe.json
 ecc80e588d11395d09090093e2c1f9831ac3c1a0 assets/coursemod/models/item/black_opal_shovel.json

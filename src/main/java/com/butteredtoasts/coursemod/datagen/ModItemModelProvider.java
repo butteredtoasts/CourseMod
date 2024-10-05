@@ -42,6 +42,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         handheldItem(ModItems.BLACK_OPAL_PAXEL);
         handheldItem(ModItems.BLACK_OPAL_HAMMER);
+
+        basicItem(ModItems.BLACK_OPAL_HELMET.get());
+        basicItem(ModItems.BLACK_OPAL_CHESTPLATE.get());
+        basicItem(ModItems.BLACK_OPAL_LEGGINGS.get());
+        basicItem(ModItems.BLACK_OPAL_BOOTS.get());
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
