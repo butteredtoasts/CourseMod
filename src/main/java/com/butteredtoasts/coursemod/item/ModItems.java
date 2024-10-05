@@ -1,11 +1,9 @@
 package com.butteredtoasts.coursemod.item;
 
 import com.butteredtoasts.coursemod.CourseMod;
-import com.butteredtoasts.coursemod.item.custom.ChainsawItem;
-import com.butteredtoasts.coursemod.item.custom.FuelItem;
-import com.butteredtoasts.coursemod.item.custom.HammerItem;
-import com.butteredtoasts.coursemod.item.custom.PaxelItem;
+import com.butteredtoasts.coursemod.item.custom.*;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -34,8 +32,8 @@ public class ModItems {
             });
 
     public static final DeferredItem<Item> BLACK_OPAL_SWORD = ITEMS.register("black_opal_sword",
-            () -> new SwordItem(ModToolTiers.BLACK_OPAL,
-                    new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.BLACK_OPAL, 3, -2.4f))));
+            () -> new ModEffectSwordItem(ModToolTiers.BLACK_OPAL,
+                    new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.BLACK_OPAL, 3, -2.4f)), MobEffects.LEVITATION));
     public static final DeferredItem<Item> BLACK_OPAL_PICKAXE = ITEMS.register("black_opal_pickaxe",
             () -> new PickaxeItem(ModToolTiers.BLACK_OPAL,
                     new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACK_OPAL, 1, -2.8f))));
