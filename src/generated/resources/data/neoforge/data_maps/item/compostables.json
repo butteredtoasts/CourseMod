@@ -1,0 +1,10 @@
+{
+  "values": {
+    "coursemod:tomato": {
+      "chance": 0.45
+    },
+    "coursemod:tomato_seeds": {
+      "chance": 0.25
+    }
+  }
+}
