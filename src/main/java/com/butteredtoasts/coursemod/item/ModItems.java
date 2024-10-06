@@ -1,6 +1,7 @@
 package com.butteredtoasts.coursemod.item;
 
 import com.butteredtoasts.coursemod.CourseMod;
+import com.butteredtoasts.coursemod.block.ModBlocks;
 import com.butteredtoasts.coursemod.item.custom.*;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffects;
@@ -62,6 +63,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmourMaterials.BLACK_OPAL, ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(16))));
     public static final DeferredItem<Item> BLACK_OPAL_BOOTS = ITEMS.register("black_opal_boots",
             () -> new ArmorItem(ModArmourMaterials.BLACK_OPAL, ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(16))));
+
+    public static final DeferredItem<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.TOMATO_CROP.get(), new Item.Properties()));
 
 
     public static final DeferredItem<Item> FROSTFIRE_ICE =
