@@ -45,6 +45,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLACK_OPAL_BOOTS);
 
                         output.accept(ModItems.TOMATO_SEEDS);
+                        output.accept(ModBlocks.PETUNIA);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =

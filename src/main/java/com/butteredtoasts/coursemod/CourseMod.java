@@ -4,6 +4,8 @@ import com.butteredtoasts.coursemod.block.ModBlocks;
 import com.butteredtoasts.coursemod.item.ModArmourMaterials;
 import com.butteredtoasts.coursemod.item.ModCreativeModeTabs;
 import com.butteredtoasts.coursemod.item.ModItems;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -56,12 +58,15 @@ public class CourseMod
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.PETUNIA.getId(), ModBlocks.POTTED_PETUNIA);
+        });
+    }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {}
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

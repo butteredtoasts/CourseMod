@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-06T11:51:10.36485	Block States: coursemod
+// 1.21.1	2024-10-11T17:05:48.6800365	Block States: coursemod
 aa4264a8473973aff221d2101ab2d0e98c436585 assets/coursemod/blockstates/black_opal_block.json
 c2cc5e0a491b7dde856f85cd7259cb551727e14e assets/coursemod/blockstates/black_opal_button.json
 1c17fea31065a4451c47aa1a4418d6ebe4e50dcc assets/coursemod/blockstates/black_opal_deepslate_ore.json
@@ -14,6 +14,8 @@ f3b271eb0c47c296d690e4e4e3e7aa1d64a20373 assets/coursemod/blockstates/black_opal
 d26b72b0a013832bafa90692a5d066ea210befad assets/coursemod/blockstates/black_opal_trapdoor.json
 a39b6f64d08a289f1ecd5564a60be123362d586e assets/coursemod/blockstates/black_opal_wall.json
 2b60a6bc6d27bb89df130b4016288201e7e373a9 assets/coursemod/blockstates/magic_block.json
+b98ccf40222c4b65d48f2ed830977c06063f1346 assets/coursemod/blockstates/petunia.json
+3af0d185cecf75a1ccbb4e9c98d660acc82d2061 assets/coursemod/blockstates/potted_petunia.json
 82487cabcd08da0a6c461f2b026c0d0d52d1f463 assets/coursemod/blockstates/raw_black_opal_block.json
 f29b4c98b337fafa9d0efa65292294d701efb5bf assets/coursemod/blockstates/tomato_crop.json
 4a47ecea53c31a68eaae49421962d7ff38dd0d50 assets/coursemod/models/block/black_opal_block.json
@@ -51,6 +53,8 @@ c9c6e90f395d985b4e332d98da60638c8bd9dac7 assets/coursemod/models/block/black_opa
 4a41dc5a102898caefe6bea79b5eae025b6aa9ba assets/coursemod/models/block/black_opal_wall_side.json
 c4a932740377160708ca1bebc48568ca1e40c763 assets/coursemod/models/block/black_opal_wall_side_tall.json
 087ac0e6626cc0d6f306f3f5e74436171058d46c assets/coursemod/models/block/magic_block.json
+acd8d3d8815c7d25038b2c3f2adfa977fec5ffc9 assets/coursemod/models/block/petunia.json
+9c70fa6482eea083f1dc8b640e6a683e024260e2 assets/coursemod/models/block/potted_petunia.json
 54d10ed83d2d440a404f9f4b3d77c5ee89d31f2e assets/coursemod/models/block/raw_black_opal_block.json
 927eac76f2ae93944030f7caeaae247fabea2cdc assets/coursemod/models/block/tomato_crop_stage0.json
 d9576f95d1ded7b9e26ec925d9d2ad847bd14551 assets/coursemod/models/block/tomato_crop_stage1.json
